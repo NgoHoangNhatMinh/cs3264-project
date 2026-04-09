@@ -10,3 +10,9 @@ data/
 checkpoints/
 
 **/.vector_cache
+
+# PyTorch model files
+**/*.pt
+**/*.pth
+data/
+__pycache__/
