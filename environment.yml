@@ -14,5 +14,9 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - cpuonly
   - notebook=7.2
+  - tqdm
+  - pip:
+      - transformers # For BERT / DistilBERT
+      - datasets # To load the SMS Spam dataset
+      - evaluate # For standardized metric calculation (F1, Accuracy)

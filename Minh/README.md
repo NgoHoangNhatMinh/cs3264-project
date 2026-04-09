@@ -32,10 +32,6 @@ jupyter notebook
 
 ## Preparing the Data
 
-The dataset used in this project is stored in the `data/` directory. Make sure to place your dataset in this directory before running the notebooks.
-
-The data is based on CASAS dataset and use the h101 dataset for training and testing. The data is preprocessed and ready for use in the model training notebooks.
-
 ## Training the Model
 
 It is recommended to train the model using SOC computing clusters.
